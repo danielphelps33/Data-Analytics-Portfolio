@@ -1,0 +1,3 @@
+weight_change_dataset2 details
+
+This dataset is designed to study the impact of various lifestyle factors on an individual's health score using linear regression analysis. It provides a comprehensive view of factors such as age, BMI, exercise frequency, diet quality, sleep hours, smoking status, and alcohol consumption. The dataset can be used for exploratory data analysis, machine learning models, and understanding correlations between health and lifestyle.
