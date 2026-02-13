@@ -12,3 +12,8 @@ CASE
   ELSE 10
 END AS Stress_Level
  FROM `da-portfolio-486522.weight_change.health_and_lifestyle` 
+
+ALTER TABLE `da-portfolio-486522.weight_change.health_and_lifestyle`
+DROP COLUMN Exercise_Frequency,
+DROP COLUMN Smoking_Status;
+## values weren't getting read properly and not needed
