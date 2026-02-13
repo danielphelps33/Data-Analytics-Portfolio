@@ -1,0 +1,1 @@
+This case study exists to find out the relation between stress levels and sleep quality/amount of time. There are two datasets being analyzed to find this insight, weight_change_dataset 1&2. I have provided the .csv files as well in case those are needed.
