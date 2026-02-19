@@ -1,0 +1,1442 @@
+formula is a set of instructions that performs a specific calculation in a spreadsheet
+
+a function is a command that automatically performs a specific process or task
+
+query language is a computer programming language that allows you to retrieve and manipulate data from a database
+[insert, delete, select, update]
+
+attribute is a characteristic or quality used to label a column in a column
+
+an observation is all of the attributes for something contained in a row of a data table
+
+sql 
+- store
+- organize
+- analyze
+
+sql is for larger sets of data
+
+a basic sql query "select, from, where"
+
+SELECT
+ColumnA,
+ColumnB,
+ColumnC
+FROM
+	Table where the data lives
+WHERE
+	Condition 1
+	AND Condition 2
+	AND Condition 3;
+
+terminate the queries with a semicolon, indent and capitalize to keep things easy to read
+
+select tells the query what column to search in
+from tells the query what table to search in
+and the where tells the query specifics about what to search for
+
+an alias is a new name that can be assigned to a column or table to make things easier to parse, they are valid for the duration of the query only
+
+<> means does not equal
+<= is greater than or equal to
+
+issue is a topic or subject to investigate
+question is designed to discover information
+problem is an obstacle or complication that needs to be worked out
+
+
+a business task is the question or problem that analysis answers for a business
+
+self reporting is a data collection technique where participants provide information about themselves.
+oversampling is the process of increasing the sample size of nondominant groups in a population.
+
+six phases of data analysis ask, prepare, process, analyze, share, act
+
+the data life cycle is a sequence of plan, capture, manage, analyze, archive, and destroy
+
+structured thinking is the process of recognizing the current problem or situation, organizing available information, revealing gaps and opportunities, and identifying the options
+
+detailed steps
+- ask
+define the problem you are trying to solve
+make sure you fully understand the stakeholder's expectations
+focus on the actual problem and avoid any distractions
+collaborate with stakeholders and keep an open line of communication
+take a step back and see the whole situation in context
+- prepare
+you will decide what data you need to collect in order to answer your questions and how to organize it so that it is useful
+what metrics to measure
+locate data
+create security measures for said data
+- process
+cleaning the data
+using spreadsheet functions to find incorrectly entered data
+using sql functions to check for extra spaces
+removing repeated entries
+checking as much as possible for bias in the data
+- analyze 
+perform calculations
+combine data from multiple sources
+create tables with your results
+- share 
+sharing will help your team 
+make better decisions
+make more informed decisions
+lead to stronger outcomes
+successfully communicate your findings
+- act
+recognize the problem or situation
+organize available information
+reveal gaps and opportunities
+identify your options
+
+steps to solve problems (order is not important):
+1. making predictions
+2. categorizing things
+3. spotting something unusual
+4. identifying themes
+5. discovering connections
+6. finding patterns
+
+questions should be
+specific
+measurable
+action-oriented
+relevant
+time-bound
+
+data-inspired decision making: explores different data sources to find out what they have in common
+
+data-driven decision making: using facts to guide business strategy
+
+an algorithm is a process or set of rules to be followed for a specific task
+
+-quantitative data is specific and objective measures of numerical facts
+-qualitative data is subjective or explanatory measures of qualities and characteristics
+
+Reports: 
+Pros
+high-level historical data
+easy to design
+pre-cleaned and sorted data
+Cons
+continual maintenance
+less visually appealing
+static
+
+Dashboards: (strategic, operational, and analytical)
+Pros
+dynamic, automatic, and interactive
+more stakeholder access
+low maintenance
+Cons
+labor-intensive design
+can be confusing
+potentially uncleaned data
+
+a pivot table is a data summarization tool that is used in data processing. pivot tables are used to summarize, sort, reorganize, group, count, total or average data stored in a database
+
+a metric is a single quantifiable type of data that can be used for measurement
+
+the four v's of big data: volume, variety, velocity, veracity (quality)
+
+common math functions in a spreadsheet
+-sum
+-average
+-count
+-min
+-max
+
+operators are symbols that name the type of operation of calculation to be performed
+(+,-,/,*)
+
+a cell reference is a single cell or range of cells in a worksheet that can be used in a formula
+
+a formula always starts with the = sign
+
+absolute referencing is denoted by a $ sign, absolute references are not changed when copy/pasted to new cells (=$A$25)
+
+you can change between relative and absolute referencing by highlighting the cell you want to change and pressing the f4 key
+
+when you click into a formula the colored ranges let you see which cells are being used in your spreadsheet, there are different colors for each unique range i///n your formula
+
+COUNTIF () is an example of a formula and a function
+=COUNTIF (A1:A16, "7") will only count the cells a1-a16 containing the number 7
+
+common errors in spreadsheets
+#DIV/0! - the formula is trying to divide by zero or an empty cell
+#ERROR! - the formula can't be interpreted as input (also known as a parsing error)
+#N/A - data in the formula can't be found by the spreadsheet
+#NAME? - a formula or function name just isn't understood
+#NUM! - a formula or function calculation can't be performed as specified
+#VALUE! - a general error that could indicate a problem with a formula or referenced cells
+#REF! - a formula is referencing a cell that is no longer valid or has been deleted
+
+common functions
+SUM - adds values in specified cells
+AVERAGE - finds the average of specified cells
+MIN - finds the minimum of the specified cells
+MAX - finds the maximum of the specified cells
+VLOOKUP - searches specified cells for a certain string of text
+SQRT - finds the square root of the cell
+TEXT - converts the number in a cell into a word
+
+press f4 to rotate between an absolute, relative or mixed reference
+
+problem domain - the specific area of analysis that encompasses every activity affecting or affected by the problem
+
+structured thinking - the process of recognizing the current problem or situation, organizing available information, revealing gaps and opportunities, and identifying the options
+
+scope of work (SOW) - an agreed-upon outline of the work you're going to perform on a project
+-deliverables: items or tasks you will complete before you can finish the project
+-timeline: include due dates for when deliverables, milestones, and/or reports are due
+-milestone: significant tasks you will confirm along your timeline to help everyone know the project is on track
+-reports: notify everyone as you finalize deliverables and meet milestones
+
+context - the condition in which something exists or happens
+
+stay objective - who, what, when, where and why
+
+stakeholders - people that have invested time, interest, and resources into the projects you'll be working on as a data analyst
+
+guidelines to help you stay on track:
+1. Who are the primary and secondary stakeholders?
+2. Who is managing the data?
+3. Where can you go for help?
+
+before you communicate, think about:
+1. Who your audience is
+2. What they already know
+3. What they need to know
+4. How you can communicate effectively to them
+
+learn as you go and don't be afraid to ask
+
+do's and dont's of meetings
+do:
+- come prepared
+- be on time
+- pay attention
+- ask questions
+- take notes
+don'ts:
+- dominate the conversation
+- have unfocused conversation
+
+How data is collected
+- interviews
+- observations
+- forms
+- questionnares
+- surveys
+- cookies
+Data collection considerations
+- how the data will be collected
+- choose data sources
+- decide what data to use
+- how much data to collect
+- select the right data type
+- determine the time frame
+
+first-party data - data collected by an individual or group using their own resources
+second-party data - data collected by a group directly from their audience then sold
+third-party data - data collected from outside sources who did not collect it directly
+
+population - all possible data values in a certain dataset
+
+sample - a part of a population that is representative of the population
+
+time series data - data the includes dates
+
+discrete data - data that is counted and has a limited number of values
+continuous data - data that is measured and can have almost any numeric value
+nominal data - a type of qualitative data that is categorized without a set order
+ordinal data - a type of qualitative data with a set order or scale
+internal data - data that lives within a company's own systems
+
+unstructured data examples:
+1. audio files
+2. video files
+3. emails
+4. photos
+5. social media
+
+structured data examples:
+1. spreadsheets
+2. databases that store datasets
+
+data model - a model that is used for organizing data elements and how they relate to one another
+
+data elements - pieces of information, such as people's names, account numbers, and addresses
+
+logical data modeling - focuses on the technical details of a database such as relationships, attributes, and entities
+
+data type - a specific kind of data attribute that tells what kind of value the data is
+
+data types in spreadsheets
+- number
+- text or string
+a sequence of characters and punctuation that contains textual information
+- Boolean
+a data type with only two possible values, such as TRUE or FALSE
+
+Boolean logic - a form of algebra that uses truth values to create logical statements through operators'
+OR operator - allows for the overall statement to be true if at least one of the conditions are true
+truth table - a mathematical table used to determine the truth values of logical expressions based on their inputs
+NOT operator - negates a condition, meaning it filters out results that meet the specified condition
+AND operator - requires that both conditions in a statement must be true for the overall statement to be true
+Boolean logic - a form of algebra that uses truth values to create logical statements through operators
+
+rows = records
+columns = fields
+
+wide data - a dataset in which every data subject has a single row with multiple columns to hold the values of various attributes of the subject
+long data - each row represents one observation per subject, so each subject will be represented by multiple rows
+
+data transformation - the process of changing the data's format, structure, or values
+
+bias - a preference in favor of or against a person, group of people, or thing
+data bias - a type of error that systematically skews results in a certain direction
+sampling bias - when a sample isn't representative of the population as a whole
+unbiased sampling - when a sample is representative of the population being measured
+observer (experimenter/researcher) bias - the tendency for different people to observe things differently
+interpretation bias - the tendency to always interpret ambiguous situations in a positive or negative way
+confirmation bias - the tendency to search for or interpret information in a way that confirms pre-existing beliefs
+
+using random sampling during data collection can prevent data bias
+
+good data should be:
+- reliable
+- original 
+- comprehensive
+- current
+- cited
+
+ethics - well-founded standards of right and wrong that prescribe what humans ought to do, usually in terms of rights, obligations, benefits to society, fairness, or specific virtues
+data ethics - well-founded standards of right and wrong that dictate how data is collected, shared, and used
+
+data interoperability - the ability of data systems and services to openly connect and share data
+
+metadata - data about data
+
+relational database - a database that contains a series of related tables that can be connected via their relationships
+
+primary key - an identifier that references a column in which each value is unique
+	- used to ensure data in a specific column is unique
+	- uniquely identifies a record in a relational database table
+	- only one primary key is allowed in a table
+	- cannot contain null or blank values
+foreign key - a field within a table that is a primary key in another table
+	- a column or group of columns in a relational database table that provides a link between the data in two tables
+	- refers to the field in a table that's the primary key of another table
+	- more than one foreign key is allowed to exist in a table
+
+normalization - the process of organizing data in a relational database
+
+metadata is used in database management to help data analysts interpret the contents of the data within the database
+
+three types of metadata: 
+- descriptive
+metadata that describes a piece of data and can be used to identify it at a later point in time
+- structural
+metadata that indicates how a piece of data is organized and whether it is part of one, or more than one, data collection
+- administrative
+metadata that indicates the technical source of a digital asset
+
+- metadata is stored in a single, central location, and gives the company standardized information about all of its data
+
+data governance - a process to ensure the formal management of a company's data assets
+
+internal data = primary data
+external data = secondary data
+
+.csv = comma separated values
+
+sorting data - arranging data into a meaningful order to make it easier to understand, analyze, and visualize
+
+filtering - showing only the data that meets a specific criteria while hiding the rest
+
+important sql information:
+- SELECT, FROM, WHERE are the basic bones for any query
+- ' is a single quotation ` is a backtick
+- strings must be enclosed in single or double quotations
+- example WHERE clause "example_field = 22"
+- spaces are bad in SQL names
+- columns are assigned the names f0, f1 etc. if the names aren't named in the query
+- use a double dash '--' to indicate a comment 
+- datasets and project id's with hyphens need to be backticked
+- functions are in sql (ex: AVG)
+
+naming conventions - using snake_case for the column names and CamelCase for table names enhances clarity and consistency is SQL code
+
+notebook - an interactive, editable programming environment for creating data reports and showcasing data skills
+
+schema - a way of describing how something, such as data, is organized
+
+encryption - a unique algorithm to alter data and make it unusable by users and applications that don't know the algorithm
+
+tokenization - replaces the data elements you want to protect with randomly generated data referred to as a "token"
+
+version control - enables all collaborators within a file to track changes over time
+
+social connection ideas for data science:
+Data Elixir
+Kaggle
+'data science meetups near me'
+X
+LinkedIn
+Webinars
+
+data integrity - refers to the accuracy and consistency of data over it's lifecycle, which is crucial for successful analysis
+
+data replication - the process of storing data in multiple locations
+
+data transfer - the process of copying data from a storage device to memory, or from one computer to another
+
+data manipulation - the process of changing data to make it more organized and easier to read
+
+data constraints:
+- data type
+values must be of a certain type:date, number, percentage, boolean
+- data range
+values must fall between predefined maximum and minimum values
+- mandatory
+values can't be left blank or empty
+- unique
+values can't have a duplicate
+- regular expression patterns
+values must match a prescribed pattern
+- cross-field validation
+certain conditions for multiple fields must be satisfied
+- primary key
+(databases only) values for a column must be unique per column
+- self-membership
+(databases only) values for a column must come from a set of discrete values
+- foreign key 
+(databases only) values for a column must be unique values coming from a column in another table
+- accuracy 
+the degree to which the data conforms to the actual entity being measured or described
+- completeness
+the degree to which the data contains all
+- consistency
+the degree to which the data is repeatable from different points of entry or collection
+
+data constraints - rules that ensure the validity of data, including types, ranges, and uniqueness, which help maintain data integrity
+
+data alignment - refers to the process of ensuring that the data collected is relevant and directly supports the business objectives, allowing for accurate conclusions
+
+types of insufficient data:
+- data from only one source
+- data that keeps updating
+- outdated data
+- geographically-limited data
+
+don't use a sample size of less than thirty, the larger the better
+
+margin of error - the expected difference between the sample results and the actual population results, indicating the accuracy of the sample
+
+statistical power - the probability of getting meaningful results from a test
+
+0.6 = 60%
+
+if a test is statically significant, it means the results of the test are real and not an error caused by random chance
+
+usually, you need a statistical power of at least zero point 8 or 80% to consider your results statistically significant
+
+contraindication - a condition that contradicts your data
+
+proxy data - refers to alternative datasets used to estimate or predict outcomes when actual data is not available
+
+confidence level - the probability that your sample size accurately reflects the greater population
+
+margin of error - the maximum amount that the sample results are expected to differ from those of the actual population
+--to find the margin of error you need population size, sample size and confidence level
+
+A/B testing - tests two variations of the same web page to determine which page is more successful in attracting user traffic and generating revenue
+
+dirty data - data that is incomplete, incorrect, or irrelevant to the problem you're trying to solve
+
+clean data - data that is complete, correct, and relevant to the problem you're trying to solve
+
+data engineers - transform data into a useful format for analysis and give it a reliable infrastructure
+
+data warehousing specialists - develop processes and procedures to effectively store and organize data
+
+DATA CLEANING: 
+-eliminate duplicates
+-make sure data is up to date
+-watchout for incomplete data
+-eliminate data that is complete but inaccurate
+-look for data that may be using different formats to say the same thing
+-fixing misspellings
+-inconsistent capitalization
+-incorrect punctuation and other typos
+
+null - an indication that a value does not exist in a dataset
+
+field - a single piece of information from a row or column of a spreadsheet
+
+field length - a tool for determining how many characters can be keyed into a field
+
+data validation - a tool for checking the accuracy and quality of data before adding or importing it
+
+merger - an agreement that unites two organizations into a single new one
+
+split function  - a function that divides text in a cell into multiple cells based on a specified delimiter, useful for managing complex data entries
+
+data formatting - the process of ensuring consistency in data presentation, such as formatting dates to a standard format
+
+remove duplicates - a feature that automatically identifies and eliminates duplicate entries in a dataset, streamlining data management
+
+split - a tool that divides text around a specified character and puts each fragment into a new, separate cell
+
+concatenate - a function that joins multiple text strings into a single string
+
+VARIOUS FUNCTIONS
+LEN - returns the length of a text string, which is useful for validating data formats
+CONCATENATE - joins two or more text strings into one string
+COUNTIF - counts the number of cells within a range that meet a specified condition
+MID - returns a segment from the middle of a text string based on specified starting position and length
+LEFT - extracts a specified number of characters from the beginning of a text string
+TRIM - removes leading, trailing, and repeated spaces from text, ensuring clean data entries
+RIGHT - extracts a specified number of characters from the end of a text string
+FIND - returns an integer based on where a substring occurs within a string
+
+sorting - arranging data into a meaningful order to make it easier to understand, analyze, and visualize
+
+filtering - showing only the data that meets a specific criteria while hiding the rest
+
+=VLOOKUP(data to look up,'where to look'!Range, column, false)
+EX: =VLOOKUP (A2, 'Sheet 2'!A1:B31, 2, false)
+
+data mapping - the process of matching fields from one data source to another
+
+schema - a way of describing how something is organized
+
+data cleaning checklist:
+1.determine the size of the dataset - large datasets may have more quality issues and take longer to process. this may impact your choice of data cleaning technique and how much time to allocate to the project
+2.determine the number of categories or labels - by understanding the number and nature of categories and labels in a dataset, you can better understand the diversity of the dataset. this understanding also helps inform data merging and migration strategies
+3.identify missing data - recognizing missing data helps you understand data quality so you can take appropriate steps to remediate the problem. data integrity is important for accurate and unbiased analysis
+4.identify unformatted data - identifying improperly or inconsistently formatted data helps analysts ensure data uniformity. this is essential for accurate analysis and visualization
+5.explore the different data types - understanding the types of data in your dataset (for instance, numerical, categorical, text) helps you select appropriate cleaning methods and apply relevant data analysis techniques
+
+spreadsheets v sql
+ - spreadsheets are typically generated with a program, stored locally, and the data is inputted by yourself, good for working independently, built - in functionality
+ - sql is generated by a group of people, stored on a server or cloud, functionality comes from external sources (bigquery, MySQL, etc)
+
+more SQL notes
+ - INSERT INTO
+ - AS (to create an alias)
+ - UPDATE
+ - DISTINCT (after FROM) 
+distinct ensures that the data returned is unique
+ - LENGTH or LEN
+then type the column you want to query in parentheses
+ - SUBSTR
+then type then the column where you found the error, then specify which letter to start with, then how many letters to pull
+ - TRIM 
+then type the column you want to remove spaces from in parentheses then = to narrow down what it'll actually trim
+ - CAST
+can be used to convert anything from one data type to another
+ - CONCAT
+adds strings together to create new text strings that can be used as unique keys
+ - COALESCE
+can be used to return non-null values in a list
+SELECT (the columns you want)
+FROM (the project, dataset, and table)
+WHERE (narrow down what information you want to pull)
+EX:
+SELECT
+  MIN(compression_ratio) AS min_compression_ratio,
+  MAX(compression_ratio) AS max_compression_ratio
+FROM
+  your project name.cars.car_info
+WHERE
+  compression_ratio <> 70;
+
+CASE EX:
+SELECT
+    Customer_id,
+    CASE
+	WHEN first_name = 'Tnoy' THEN 'Tony'
+	ELSE first_name
+	END AS cleaned_name
+FROM
+   project-id.customer_data.customer_name
+
+REMEMBER TO USE BACKTICKS AROUND STRINGS
+SAVE A COPY OF ANY FILE YOU MANIPULATE
+
+data types - data types specify the kind of data that can be stored in a field, such as STRING, INTEGER, or FLOAT, which is essential for accurate data processing
+
+typecasting - converting data from one type to another
+
+verification - a process to confirm that a data-cleaning effort was well-executed and the resulting data is accurate and reliable
+
+changelog - a file containing a chronologically ordered list of modifications made to a project
+
+find and replace - a tool that looks for a specified search term in a spreadsheet and allows you to replace it with something else
+
+COUNTA - a function that counts the total number of values within a specified range
+
+CASE statement - the CASE statement goes through one or more conditions and returns a value as soon as a condition is met
+
+documentation - the process of tracking changes, additions, deletions, and errors involved in your data-cleaning effort
+
+sheets:right-click the cell and select show edit history
+xl:under review-track changes; click accept/reject changes
+
+make a word/notepad/some kind of log detailing what changes you made to clean the data
+
+IMPORTRANGE function - insert data from one sheet to another
+EX:
+(for google sheets)
+=IMPORTRANGE("https://docs.google.com/spreadsheets/d/abcd123abcd123", "sheet1!A1:C10", "Matched Funds!A1:B4001")
+==============
+JOB APP NOTES
+
+TAILOR RESUME
+BE direct and coherent in your resume
+
+PAR STATEMENTS - problem, action, result
+
+don't be shy about skills (sql, spreadsheets, r, data visualization, etc.)
+
+junior and associate 
+
+networking is important
+===============
+
+analysis - the process used to make sense of the data collected [the goal of analysis is to identify trends and relationships within data so you can accurately answer the question you're asking]
+
+sorting - the process of arranging data in a meaningful order based on specific metrics, making it easier to analyze and visualize
+
+filtering - showing only the data that meets a specific criteria while hiding the rest
+
+sort sheet - all of the data in a spreadsheet is sorted by the ranking of a specific sorted column - data across rows is kept together
+
+sort range - nothing else on the spreadsheet is rearranged besides the specified cells in a column
+
+The sort from a spreadsheet's Data tab overwrites the cells containing the unsorted data with the sorted data, while a written SORT function inserts the sorted data in a different cell range. The sort in the Data tab can also exclude a header row in the data range from being sorted, while the data range for a written SORT function should never contain a header row.
+
+SORTING IN SQL:
+
+WHERE
+ORDER BY
+DESC 
+
+EX:
+SELECT *
+FROM `practice-for-coursera-480519.movie_data.movies`
+WHERE Genre = "Comedy"
+AND Revenue > 30000000
+ORDER BY `Release Date` DESC;
+
+will return comedies with revenue greater than that amount ordered by release date
+
+SELECT
+  *
+FROM
+  `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality`
+WHERE 
+  County_of_Residence = 'Erie County, NY'
+  OR County_of_Residence = 'Niagara County, NY'
+  OR County_of_Residence = 'Chautauqua County, NY'
+ORDER BY
+  County_of_Residence,
+  Year
+
+will return birth rates in those individual counties ordered by year
+
+you can create tables from queries in sql
+
+CONVERT FORMULA IN SHEETS EXAMPLE:
+
+=CONVERT(B2, "C", "F")
+
+import range function in spreadsheet example:
+ =IMPORTRANGE(spreadsheet_url, range_string)
+
+CONCATENATE IN SPREADSHEETS EXAMPLE:
+=CONCATENATE(A2, " ",B2)
+
+combine data in sql example:
+INSERT INTO [destination_table_name]
+SELECT [column names, separated by commas, or * for all columns]
+FROM [source_table_name]
+WHERE [condition]
+
+CONCATENATE IN SQL EXAMPLE:
+SELECT CONCAT(field1, " ", field2)
+FROM [table_name]
+
+CONCAT_WS - concatenate with separator
+EXAMPLE:
+SELECT CONCAT_WS('.', 'www', 'your_company', 'com') as website FROM web_data;
+the query will add a . between the strings and save it under a column named website
+
+aggregation - collecting or gathering many separate pieces into a whole
+
+data aggregation - the process of gathering data from multiple sources in order to combine it into a single summarized collection
+
+vlookup (vertical lookup) - a function that searches for a certain value in a column to return a corresponding piece of information
+
+VALUE - a function that converts a text string that represents a number to a numerical value
+
+VLOOKUP EXAMPLE:
+=VLOOKUP(103, A2:B26, 2, FALSE)
+103 is the value being searched
+A2:B26 is the range being searched
+2 indicates the column being searched
+FALSE indicates only an exact match is returned
+
+=VLOOKUP(A3, 'Employee Rates'!$A$2:$B$5, 2, FALSE)
+A3 means the cell being searched
+'Employee Rates' denotes the other sheet to search
+!$A$2:$B$5 denotes the range on the other sheet to analyze in the search
+2 indicates the column being searched
+FALSE indicates only an exact match is returned
+
+vlookup only returns the first value it finds
+
+absolute reference - a reference that is locked so that rows and columns won't change when copied ($)
+
+LOCK SENSITIVE COLUMNS IF NEEDED
+
+MATCH - a function used to locate the position of a specific lookup value
+
+TRUE tells vlookup to look for approximate matches
+FALSE tells vlookup to look for exact matches
+
+N/A error - indicates that a matching value can't be returned because no matches were found
+
+#VALUE error - if the third field in the vlookup syntax is not within the specified range
+
+JOIN is an SQL clause that is used to combine rows from two or more tables based on related columns
+INNER JOIN - a function that returns records with matching values in both tables
+LEFT JOIN - a function that returns all the records from the left table and only the matching records from the right table
+RIGHT JOIN - a function that returns all records from the right table and only the matching records from the left table
+OUTER JOIN - a function that combines the RIGHT JOIN and LEFT JOIN to return all matching records in both tables
+
+aliases - used in SQL queries to create temporary names for a column or table
+EX: 
+SELECT column_name(s)
+FROM table_name AS alias_name;
+
+not all sql databases use as, some don't use any syntax
+
+scatter plot - visually represents data in an X-Y axis chart
+
+SQL JOIN/COUNT EXAMPLE
+GOAL: find the state and amount of unique orders coming from them [group by organizes the results by state]
+SELECT
+  state,
+  COUNT(DISTINCT order_id) AS num_orders
+FROM
+  `practice-for-coursera-480519.warehouse_orders.orders` AS orders
+JOIN
+  `practice-for-coursera-480519.warehouse_orders.warehouse` AS warehouse ON orders.warehouse_id = warehouse.warehouse_id
+GROUP BY 
+  warehouse.state
+
+subquery - a SQL query that is nested inside a larger query, it's common to see subqueries nested in SELECT or FROM clauses
+
+subqueries are executed first
+
+IN - filtering based on a list of given values in SQL
+E.g., `SELECT column FROM table WHERE column_name IN ('Value1', 'Value2', 'Value3')`
+[values are usually numbers, dates, or strings]
+EX:
+SELECT
+    tripduration,
+    start_station_id
+FROM bigquery-public-data.new_york_citibike.citibike_trips
+WHERE start_station_id IN
+    (
+        SELECT
+            start_station_id
+        FROM
+        (
+            SELECT
+                start_station_id,
+                AVG(tripduration) AS avg_duration
+            FROM bigquery-public-data.new_york_citibike.citibike_trips
+            GROUP BY start_station_id
+        ) AS top_five
+        ORDER BY avg_duration DESC
+        LIMIT 5
+    );
+if ran this query would return every record from only the top five stations with the highest average trip durations
+
+HAVING - filters groups of rows after they have been grouped
+
+=COUNTIF(range, "value")
+
+summary table - a table used to summarize statistical information about data
+
+SUMIF - a function that adds numeric data based on one condition
+
+=SUMIF(range,criteria/condition,[sum_range])
+
+SUMIFS or COUNTIFS - in cases where you have more than one condition
+EX:
+=SUMIFS(D2:D8, A2:A8, "ProductA", B2:B8, "East", C2:C8, "Q1")
+or
+=COUNTIFS(A2:A8, "ProductA", B2:B8, "East", C2:C8, "Q2")
+
+SUMPRODUCT - a function that multiplies arrays and returns the sum of those products
+
+array - a collection of values in cells
+
+profit margin - a percentage that indicates how many cents of profit has been generated for each dollar of sale
+
+calculated field - a new field within a pivot table that carries out certain calculations based on the values of other fields
+
+operator - a symbol that names the type of operation or calculation to be performed in a formula
+
+SQL EXAMPLE:
+SELECT
+  Date,
+  Region,
+  Total_Bags,
+  Small_Bags,
+  (Small_Bags / Total_Bags)*100 AS Small_Bags_Percent
+FROM
+  `practice-for-coursera-480519.avocado_data.avocado_prices`
+WHERE
+  Total_Bags <>0
+
+underscores - lines used to underline words and connect text characters
+
+GROUP BY - a command that groups rows that have the same values from a table into summary rows [shows up at the end of a query]
+
+EXTRACT - lets us pull one part of a given date to use
+EXAMPLE: 
+SELECT
+  EXTRACT (YEAR FROM starttime)
+
+CALCULATE IN SQL EXAMPLE:
+SELECT
+  station_name,
+  ridership_2013,
+  ridership_2014,
+  ridership_2014-ridership_2013 AS change_2014_raw
+FROM
+  `bigquery-public-data.new_york_subway.subway_ridership_2013_present`
+this example will return a list of the selected columns as well as a separate one that is one existing column subtracted by another
+
+data validation process - checking and rechecking the quality of your data so that it is complete, accurate, secure and consistent
+- data type
+- data range
+- data constraints
+- data consistency
+- data structure
+- code validation
+
+temporary table - a database table that is created and exists temporarily on a database server
+
+WITH command - to create a temporary table in SQL
+CREATE TABLE
+SELECT INTO
+
+data visualization - the graphic representation and presentation of data
+
+marks - basic visual objects such as points, lines, and shapes. every mark can be broken down into four qualities; position, size, shape and color
+
+channel - visual aspects or variables that represent characteristics of the data in a visualization. they can be broken down into three elements; accuracy, popout, grouping
+
+bar graphs - use size contrast to compare two or more values
+
+line graphs - help your audience understand shifts or changes in your data
+
+pie charts - show how much each part of something makes up the whole
+
+histogram - a chart that shows how often data values fall into certain ranges
+
+correlation charts - show relationships among data
+
+column chart - use size to contrast and compare two or more values, using height or lengths to represent the specific values
+
+heatmaps - use color to compare categories in a data set, mainly used to show relationships between two variables and use a system of color-coding to represent different values
+
+scatterplots - show relationships between different variables
+
+distribution graph - displays the spread of various outcomes in a dataset
+
+correlation v causation:
+correlation - the measure of the degree to which two variables move in relationship to each other
+causation - the idea that an event leads to a specific outcome
+
+tableau - a business intelligence and analytics platform that helps people see, understand, and make decisions with data
+
+ranking - a position in a scale of achievement or status
+
+decision tree - a decision-making tool that allows you to make decisions based on key questions that you can ask yourself
+
+TRY TO MAKE THE VISUALIZATION RELEVANT TO WHO YOURE SHARING WITH
+
+good visualizations have:
+-clear meaning
+-good use of contrast
+-refined execution
+
+design thinking - a process used to solve complex problems in a user-centric way
+
+`design process`
+empathize
+define
+ideate
+prototype
+test
+
+ways to make data visualizations accessible:
+- labeling
+- text alternatives
+- text-based format 
+- distinguishing
+
+tableau notes:
+# represents numerical data
+Abc represents string data
+globe represents geographic data 
+calendar represents date data
+calendar with a clock represents date and time data
+
+diverging color palette - displays two ranges of values using color intensity to show the magnitude of the number and the actual color to show which range the number is from
+
+design principles:
+-choose the right visual
+-optimize the data-ink ratio
+-use orientation effectively
+-color
+-numbers of elements
+
+dashboard - a tool that organizes information from multiple datasets into one central location for tracking, analysis, and simple visualization
+
+data storytelling - communicating the meaning of a dataset with visuals and a narrative that are customized for each particular audience
+
+engagement - capturing and holding someone's interest and attention
+[3 steps for engagement:
+- engage your audience
+- create compelling visuals
+- tell the story in an interesting narrative]
+
+spotlighting - scanning through data to quickly identify the most important insights
+
+elements of a compelling presentation:
+- characters
+- setting 
+- plot 
+- big reveal
+- aha moment
+all of these need to be paired with an interesting visual
+
+use slides or powerpoint to create an effective presentation
+
+establish hypothesis right away in a good presentation
+
+the McCandless method:
+- introduce the graphic by name
+- answer obvious questions before they're asked
+- state the insight of your graphic
+- call out data to support that insight
+
+framework (what will be discussed in the pres)
+visualization (any visual of the data)
+conclusions (what it means)
+
+"does this data point or chart support the point I want people to walk away with?"
+
+Include a title, subtitle, and date: Making sure that your slide deck presentation has a title, subtitle, and date makes sure that your audience knows exactly what you are presenting and when the information was from. That way they know it’s relevant and current to them!
+
+Use a logical sequence of slides: Organizing your slides in an order that makes sense guides your audience through your narrative, building understanding step by step.
+
+Provide an agenda with a timeline: An agenda offers a roadmap of your presentation, allowing your audience to follow along and anticipate key topics.
+
+Limit the amount of text on slides: Keeping text brief ensures clarity and retains the audience’s attention; aim for your audience to scan it within 5 seconds.
+
+Start with the business task: By immediately relating the content to the business task at hand, you contextualize your information, making it relevant and actionable.
+
+Establish the initial hypothesis: Presenting an initial hypothesis gives your audience a starting point for what to expect and frames the subsequent analysis.
+
+Show what business metrics you used: Clarifying which metrics you're analyzing validates your arguments and helps the audience gauge your presentation's relevance to business outcomes.
+
+Use visualizations: Visual aids can illustrate complex data more effectively than text alone, making your message more accessible.
+
+Introduce the graphic by name: A brief introduction to each graphic aids in understanding and retaining information.
+
+Provide a title for each graph: Titles act as signposts, helping the audience quickly grasp the meaning of each visual.
+
+Go from the general to the specific: Starting with a broad overview before diving into details ensures that all audience members are on the same page.
+
+Use speaker notes to help you remember talking points: Notes act as your cue cards, enabling a smoother delivery and ensuring no critical point is missed.
+
+Include key takeaways: Summarizing the main points at the end of your presentation reinforces the message and ensures the audience leaves with the intended takeaways.
+
+- agenda
+- purpose
+- data/analysis
+- pitch
+- call to action
+
+intro slide should include:
+1. where you got the data 
+2. what systems it came from
+3. what transformations happened to it
+4. how fresh and accurate is the data
+
+- communicate any assumptions
+- explain why your analysis might be different than expected
+- acknowledge that those objections are valid and take steps to investigate further
+
+business task - a question or problem you use data to solve--and a presentation demonstrates how to solve it
+
+if you have objections-
+- listen to the whole question
+- repeat the question (if necessary)
+- understand the context
+- involve the whole audience
+- keep your responses short and to the point
+
+computer programming - giving instructions to a computer to perform an action or set of actions
+
+r - a programming language used for statistical analysis, visualization, and other data analysis
+
+programming languages - the words and symbols we use to write instructions for computers to follow
+
+programming helps you:
+- clarify the steps of your analysis
+- saves time
+- reproduce and share your work
+
+tips for learning programming languages:
+- define a practice project and use the language to help you complete it. this makes the learning process more practical and engaging
+- keep previous concepts and coding principles in mind. many of these are transferable between programming languages. so, after you have learned one language, learning a second or third programming language tends to be much easier
+- create and keep good notes and cheat sheets in whatever format (handwritten or typed) that works best for you
+- create an online filing system for information that you can easily access while you work in various programming environments
+
+r shares many similarities to sql and spreadsheets
+
+open source - code that is freely available and may be modified and shared by the people who use it
+
+integrated development environment - a software application that brings together all the tools you may want to use in a single place
+
+php - a programming language for web application development
+
+pipes make a sequence of code easier to work with and read
+
+functions (R) - a body of reusable code used to perform specific tasks in R
+
+argument (R) - information that a function in R needs in order to run
+
+variable (R) - a representation of a value in R that can be stored for use later during programming
+(a variable name should start with a letter and can also contain numbers and underscores)
+
+vector (R) - a group of data elements of the same type stored in a sequence in R
+
+pipe (R) - a tool in R for expressing a sequence of multiple operations, represented with "%>%"
+
+six types of vectors:
+- logical (true/false)
+- integer (positive and negative whole values)
+- double (decimal values)
+- character (string/character values)
+
+vector creation example:
+z <- c(4:10)
+creates a vector "z" that includes whole numbers 4:10
+
+determine a vector's type with the typeof() function
+ex:
+typeof(c(1L , 3L))
+will return:
+"integer"
+since integer is the type of data in the vector
+
+vector name and length functions:
+x <- c(33.5, 57.75, 120.05)
+length(x)
+will return:
+3
+
+x <- c(1, 3, 5)
+names(x) <- c("a", "b", "c")
+x
+will return: 
+a b c 
+1 3 5 
+
+extract a subset of a vector:
+x <- c(1, 3, 5)
+names (x) <- c("a", "b", "c")
+x
+x[2]
+will return:
+a b c 
+1 3 5 
+b 
+3 
+
+lists are different from atomic vectors because their elements can be of any type.
+you can create a list with the list() function:
+list("a", 1L, 1.5, TRUE)
+will return:
+[[1]]
+[1] "a"
+
+[[2]]
+[1] 1
+
+[[3]]
+[1] 1.5
+
+[[4]]
+[1] TRUE
+
+to find out what types of elements a list contains, use the str() function
+ex:
+str(list("a", 1L, 1.5, TRUE))
+will return:
+List of 4
+$ : chr "a"
+$ : int 1
+$ : num 1.5
+$ : logi TRUE
+
+data frames - a collection of columns containing data, similar to a spreadsheet or SQL table
+create data frames with the data.frame() function, it takes vectors as input
+ex:
+data.frame(x = c(1, 2, 3) , y = c(1.5, 5.5, 7.5))
+will return:
+  x   y
+1 1 1.5
+2 2 5.5
+3 3 7.5
+
+use the file.create() function to create a blank file 
+use the file.copy() function to copy
+ex:
+file.copy("new_text_file.txt", "destination_folder")
+
+to create a matrix use the matrix() function
+ex:
+matrix(c(3:8), nrow = 2)
+will return:
+     [,1] [,2] [,3]
+[1,]    3    5    7
+[2,]    4    6    8
+
+assignment operators - used to assign values to variables and vectors
+
+and example:
+airquality[, "Solar.R"] > 150 & airquality[, "Wind"] > 10
+
+or example:
+airquality[, "Solar.R"] > 150 | airquality[, "Wind"] > 10
+
+not example:
+airquality[, "Day"] != 1
+
+conditional statements in R:
+if()
+else()
+else if()
+
+conditional statement example:
+x <- 7
+if (x > 0) {
+  print ("x is a positive number")
+} else {
+  print ("x is either a negative number or zero")
+}
+
+packages (R) - units of reproducable R code
+
+CRAN (Comprehensive R Archive Network) - an online archive with R packages, source code, manuals, and documentation
+
+tidyverse (R) - a system of packages in R with a common design philosophy for data manipulation, exploration, and visualization
+
+conflicts happen when packages have functions with the same names as other functions
+
+vignette (R) - documentation that acts as a guide to an R package
+browseVignettes() is the function, a package name goes into the parentheses
+
+4 essential tidyverse packages
+ggplot2 - create a variety of data viz by applying different visual properties to the data variables in R
+tidyr - a package used for data cleaning to make tidy data
+readr - used for importing data
+dplyr - offers a consistent set of functions that help you complete some common data manipulation tasks
+
+factors (R) - store categorical data in R where the data values are limited and usually based on a finite group like country or year
+
+nested - in programming, describes code that performs a particular function and is contained within code that performs a broader function
+
+ctrl shift M adds a pipe operator %>% in rstudio
+when using pipes:
+- add the pipe operator at the end of each line of the piped operation except the last one
+- check your code after you've programmed your pipe
+- revisit piped operations to check for parts of your code to fix
+
+matrix - a two-dimensional collection of data elements with rows and columns
+
+tibbles - a smaller, more compact data frame that:
+- never change the data types of the inputs
+- never change the names of your variables
+- never create row names 
+- make printing easier
+
+tidy data (R) - a way of standardizing the organization of data within R
+
+head (R) - a version of the View() function that only returns 6 rows
+
+mutate (R) - tidyverse package that lets you make changes to a data frame
+ex:
+mutate(diamonds, carat_2=carat*100)
+will return:
+tibble of the diamonds data frame with an added carat_2 column that is carat times 100
+
+create a tibble:
+as_tibble(diamonds)
+to save the tibble:
+diamonds_tibble <- as_tibble(diamonds)
+then examine with this code:
+diamonds_tibble
+
+data() function to load datasets (if no argument it displays a list of available datasets)
+
+common filetypes for rectangular data:
+.csv (comma separated values)
+.tsv (tab separated values)
+.fwf (fixed width files)
+.log
+
+readr package - provide a fast way to read rectangular data
+example functions:
+- read_csv()
+- read_tsv()
+- read_delim()
+- read_fwf()
+- read_table()
+- read_log()
+
+readxl() for .xlsx files
+
+penguins %>% 
+  select(-species)
+will return a tibble with every column except species
+
+rename() - used to rename columns
+ex:penguins %>%
+  rename(island_new=island)
+will return a column name change
+
+clean_names() - makes sure theres only characters, numbers and underscores in the variable names
+rename_with() - add arguments to the rename such as:
+[toupper] - upper case
+[tolower] - lower case
+
+when naming files use the company set naming regulations but also:
+- keep filenames to a reasonable length
+- use underscored and hyphens for readability
+- start or end your filename with a letter or number
+- use a standard date format when applicable; example: YYYY-MM-DD
+- use filenames for related files that work well with default ordering (e.g. in chronological order, or logical order using numbers first)
+
+R operators of note:
+- <- to assign value or generally represent an equal
+- == this also works to denote equal
+- != denotes not equal
+- <= less than or equal to
+- ^ exponent
+- %% modulus (returns the remainder after division)
+- %/% integer division (returns an integer value after division)
+- & element-wise logical AND
+- | element-wise logical OR
+- ! logical NOT
+ex:
+!(x < 15)
+[1] FALSE
+
+arrange() - creates a tibble based on the column specified in ascending or descending order
+ex:
+penguins %>% arrange(bill_length_mm) for ascending order tibble
+penguins %>% arrange(-bill_length_mm) for descending order tibble
+
+creating a data frame
+ex:
+id <- c(1:10)
+
+name <- c("John Mendes", "Rob Stewart", "Rachel Abrahamson", "Christy Hickman", "Johnson Harper", "Candace Miller", "Carlson Landy", "Pansy Jordan", "Darius Berry", "Claudia Garcia")
+
+job_title <- c("Professional", "Programmer", "Management", "Clerical", "Developer", "Programmer", "Management", "Clerical", "Developer", "Programmer")
+
+employee <- data.frame(id, name, job_title)
+
+unite() combines columns in a data frame
+separate() does the opposite
+ex:
+separate(employee, name, into=c('first_name','last_name'), sep=' ')
+will return:
+table with the name column broken into first_name and last_name
+unite in separate's position recombines the two columns
+
+Anscombe's quartet - four datasets that have nearly identical summary statistics
+
+colnames() - lists the column titles in the data frame
+
+aesthetic(R) - a visual property of an object in your plot
+
+geom(R) - refers to the geometric object used to represent your data
+
+facets(R) - let you display smaller groups, or subsets, of your data
+
+example ggplot2 code:
+ggplot(data=penguins) + geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g))
+
+mapping(R) - matching up a specific variable in your dataset with a specific aesthetic
+
+add color/shape/size/alpha to a ggplot visualization
+ex:
+ggplot(penguins) +
+  geom_point(mapping = aes(x=flipper_length_mm, y = body_mass_g, color=species))
+
+to change overall attributes you need to specify outside of the aes argument
+ex:
+ggplot(penguins) +
+  geom_point(mapping = aes(x=flipper_length_mm, y = body_mass_g),color="purple")
+
+geom functions:
+- geom_point
+- geom_bar
+- geom_line
+and more
+
+ggplot(penguins) +
+  geom_smooth(mapping = aes(x=flipper_length_mm, y = body_mass_g, linetype=species))
+will return a plot with multiple lines (one for each species) to visualize the data
+
+geom_jitter() - best used when data points are overlapping and need to be seen clearly
+
+geom_bar doesn't need a y input in it's aes()
+
+add fill= argument to the same aes() to have solid color bars, if you map fill to a different variable it will return a stacked bar chart
+
+ggplot(data, aes(x=distance, 
+y= dep_delay)) +
+    geom_point() +
+    geom_smooth()
+will return a plot with a smooth trend line making it easy to parse
+
+loess smoothing is good for >1000 points
+gam smoothing works well for anything above that
+
+ggplot2 facet functions:
+- facet_wrap()
+ex:
+ggplot(penguins) +
+  geom_smooth(mapping = aes(x=flipper_length_mm, y = body_mass_g, color=species)) + facet_wrap(~species)
+
+- facet_grid()
+ex:
+ggplot(penguins) +
+  geom_smooth(mapping = aes(x=flipper_length_mm, y = body_mass_g, color=species)) + facet_grid(sex~species)
+
+filter() - ggplot function where you are able to filter the results
+ex:
+data %>%
+    filter(variable1 == "DS") %>%  
+    ggplot(aes(x = weight, y = variable2, colour = variable1)) +  
+    geom_point(alpha = 0.3,  position = position_jitter()) + stat_smooth(method = "lm")
+
+to add a title in ggplot2 - title = xxxxxxxx
+to add multiple colors - ifelse (x<2, 'blue', 'yellow')
+
+labs() function - label
+ex:
+ggplot(data=penguins)+
+    geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+
+    labs(title="Palmer Penguins: Body Mass vs. Flipper Length")
+example with subtitle:
+ggplot(data=penguins)+
+    geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+
+    labs(title="Palmer Penguins: Body Mass vs. Flipper Length", subtitle="Sample of Three Penguins")
+example with caption:
+ggplot(data=penguins)+
+    geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+
+    labs(title="Palmer Penguins: Body Mass vs. Flipper Length", subtitle="Sample of Three Penguins"
+	caption="Data collected by Dr. Kristen Gorman")
+
+annotate() - to put labels on the inside of the grid
+ex:
+ggplot(data=penguins)+
+    geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+
+    labs(title="Palmer Penguins: Body Mass vs. Flipper Length", subtitle="Sample of Three Penguins"
+	caption="Data collected by Dr. Kristen Gorman")+
+annotate("text", x=220,y=3500,label="The Gentoos are the largest")
+
+export option in the plots tab in rstudio, you can save as an image
+
+ggsave() - will save the plot the same as through the export option
+
+rmd files - export files from rstudio (R markdown)
+
+italicize in r markdown files by adding either a _ or * before or after the word
+
+r notebook - lets users run your code and show the graphs and charts that visualize the code
+
+can convert these files to a pdf, word doc, or slide presentation or dashboard
+
+code chunk - code added into an .rmd file
+
+knit to HTML
+HTML is superior because there isn't any page breaks and you can focus on creating content
+
+case study - a common way for employers to assess job skills and gain insight into how you approach common data related challenges
+
+show off thought process 1st
+
+portfolio - a collection of case studies that can be shared with potential employers
+
+steps to build a great portfolio
+1. choose your projects
+2. capture your process
+3. aesthetics matter
+4. tell your story
+
+Kaggle and GitHub are ideal places to host your portfolio
+
+a great portfolio is also personal and unique, cool and memorable
+make sure it is still relevant and professional
+simple is better
+
+what to include in the portfolio:
+- biography
+- contact page
+- resume
+- accomplishments
+- an image of you (?)
+
+what to include in a case study:
+- intro
+- problems
+- solutions
+- conclusion
+- next steps
+
+REWRITE RESUME FOR EVERY JOB APP
+
+acquired skill ideas:
+1. database queries - collect data by using a scripting language such as SQL
+2. data visualization - visualize data insights and communicate your findings to teams in other organizations
+3. dashboards - build and train users of new dashboards
+4. reports - create comprehensive reports
+5. spreadsheets - explore and analyze datasets with spreadsheets
+6. programming - knowledge of some programming languages and an organized and methodical approach to work
+
+roadmap tips for creating a case study:
+- ask: what problem are you trying to solve and what metrics will you use to figure out those insights?
+- prepare: where is your data located and did you verify its integrity? (how is it organized?)
+- process: what tools are you using and why, and have you documented your cleaning process so you can review and share your results and strategy?
+- analyze: is the data clean and what insights did you discover?
+- share: what story does your data tell, who is your audience and does your presentation address them and any concerns/questions they may have?
+- act: what is your final conclusion based on your analysis? how can you apply your insights?
