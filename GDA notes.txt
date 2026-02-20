@@ -1,3 +1,5 @@
+Below are all of the notes I have taken for the Google Data Analytics Certificate:
+
 formula is a set of instructions that performs a specific calculation in a spreadsheet
 
 a function is a command that automatically performs a specific process or task
